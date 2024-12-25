@@ -155,15 +155,3 @@ If you'd like to contribute to this project, feel free to fork the repository an
 
 ---
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-### Notes:
-1. Make sure to replace `https://github.com/your-repo/to-do-app.git` with the actual URL of your GitHub repository.
-2. The **LICENSE** section should refer to an actual `LICENSE` file in your repository, so ensure that file exists.
-
----
-
-This version is cleaner and more organized, with clear section headers and bullet points to help readers easily navigate through the content. Let me know if you need further adjustments!
