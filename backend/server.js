@@ -5,14 +5,14 @@ const cors = require('cors');
 
 const app = express();
 app.use(cors({
-  origin: ["https://sensible-t-frontend.vercel.app"],
+  origin: ["https://Robotspace-frontend.vercel.app"],
   methods: ["GET", "POST","PUT", "DELETE"],
   credentials:true
 }));
 app.use(bodyParser.json());
 
 // Database connection
-mongoose.connect('mongodb+srv://chinnasivakrishna2003:siva@cluster0.u7gjmpo.mongodb.net/sensible?retryWrites=true&w=majority&appName=Cluster0', {
+mongoose.connect('mongodb+srv://chinnasivakrishna2003:siva@cluster0.u7gjmpo.mongodb.net/Robotspace?retryWrites=true&w=majority&appName=Cluster0', {
   
 }).then(() => console.log('Connected to DB'))
   .catch(err => console.log(err));

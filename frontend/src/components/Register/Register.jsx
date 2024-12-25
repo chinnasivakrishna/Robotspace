@@ -48,7 +48,7 @@ const Register = () => {
     if (validate()) {
       setIsSubmitted(true);
       try {
-        await axios.post('https://sensiblet-backend-0ejj.onrender.com/api/users/register', { username,email, password });
+        await axios.post('https://Robotspace-backend-0ejj.onrender.com/api/users/register', { username,email, password });
         alert('Registration successful');
           navigate('/');
           
